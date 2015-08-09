@@ -115,7 +115,12 @@ plot(HH_Power_DateSlice$DateTime2, HH_Power_DateSlice$Sub_metering_1, type = "n"
      xlab = "",
      ylab = "Energy Sub metering"
 )
+### No legend box: bty = "n"
+### legend has its own cex! (that defaults to 1)
+### Changing cex here seems to blur font (so I will leave at default, cex = 1)
 legend("topright",
+       bty = "n",
+       cex = 1,
        col = c("black", "red", "blue"),
        lty = 1,
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3") 

@@ -112,6 +112,6 @@ par(cex = .75, mfrow = c(1, 1), mar = c(4, 4, 2, 1))
 setwd("C:/Users/Jim/Documents/GitHub/ExData_Plotting1/.data")
 
 ### NOTE: "plot3.png" should have been created in  /GitHub/ExData_Plotting1/
-### NOTE: Need to "git add plot1.png".
+### NOTE: Need to "git add plot3.png".
 
 ### End of: plot3.R
